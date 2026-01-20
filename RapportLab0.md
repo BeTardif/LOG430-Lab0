@@ -53,5 +53,6 @@ Dans ce *Checkout* github regarde les modifications à apportées à l'applicati
 
 ### Question 3 ###
 **Quel type d'informations pouvez-vous obtenir via la commande `top` ? Veuillez donner quelques exemples. Veuillez inclure la sortie du terminal dans votre réponse.**
+La commande **top** nous permet d'obtenir l'information concernant l'utilisation du CPU de la VM. Tel qu'il est démontré dans la capture d'écran ci-dessous, les lignes décrivent les éléments qui utilisent le CPU. Par exemple, la deuxième ligne est celle du conteneur docker nommé *containerd*, elle utilise 0.3% de l'attribution émise lors de l'étape cinque du laboratoire quand nous avons initié la machine virtuelle. Un autre exemple serait la première ligne qui indique l'agent LXD qui permet la virtualisation. Celle command utilise aussi 0.3% de la capacité du CPU.
 
-
+![alt text](image-3.png)

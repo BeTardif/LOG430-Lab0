@@ -31,4 +31,3 @@ jobs:
           PYTHONPATH: ${{ github.workspace }}/src
         run: | 
           python -m pytest
-cd 
