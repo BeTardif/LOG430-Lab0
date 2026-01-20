@@ -1,0 +1,14 @@
+network:
+  version: 2
+  ethernets:
+    enp5s0:
+      dhcp4: no
+      addresses:
+        - 10.194.32.155/24
+      routes:
+        - to: default
+          via: 10.194.32.1
+      nameservers:
+        addresses:
+          - 10.162.8.10
+          - 10.162.8.11
