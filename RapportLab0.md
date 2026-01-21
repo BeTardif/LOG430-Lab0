@@ -6,6 +6,8 @@
 ## 1. Introduction, description des fichiers et définitions.
 
 ### Context et introduction ###
+**Veuillez noter que que mon compte GitHub scolaire, celui avec inscrit à l'adresse benjamin.tardif.1@ens.etsmtl.ca n'est pas disponible pour l'instant. Mon compter a été hacké cet été et GitHub m'a bloqué l'accès. Les démarches ont été entreprises pour retrouver les droits d'accès. Conséquemment, le repertoire de GitHUb Classroom a été recopié de manière locale afin de pouvoir produire les demandes de laboratoire.**
+
 Ce laboratoire est le premier d'une suite de laboratoire donné dans le cadre du cour LOG430 - architecture logiciel. Il a pour objectif d'apprendre à l'étudiant les notions de base en terme d'infrastructure de développement logiciel, plus précisément
 concernant l'environnement GIT, la virtualisation avec Docker et le CI/CD typiquement utilisé en DevOps.
 
@@ -18,7 +20,7 @@ Tel que décrit dans l'énoncé du laboratoire.
 ### Definitions ###
 * LXD: Lightweight open source virtualisation. Permet de créer et gérer des composantes virtuelles sur une machine.
 * LXC: Conteneur ou machine virtuelle permettant une virtualisation.
-* Docker: Permet de déployer une application en faisant abstraction du système opératif d'un ordinateur. Docker crée un conteneur dans leq*uel toutes les dépendances d'une application sont insérées en passant du hardware jusqu'aux modules de dépendances.
+* Docker: Permet de déployer une application en faisant abstraction du système opératif d'un ordinateur. Docker crée un conteneur dans lequel toutes les dépendances d'une application sont insérées en passant du hardware jusqu'aux modules de dépendances.
 * Choco : Gestionnaire de paquets pour windows.
 
 
